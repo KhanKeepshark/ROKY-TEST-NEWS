@@ -1,0 +1,42 @@
+.card{
+    width: 440px;
+    margin-top: 40px;
+    background-color: var(--search-card-color);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.selectsRow {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.selectSort {
+    width: 160px;
+}
+
+.selectPageNumber {
+    width: 88px;
+}
+
+.selectPageNumberRow .text {
+    color: white;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 640px) { 
+    .card{
+        width: 218px;
+        padding: 16px;
+    }
+    .selectsRow {
+        flex-direction: column;
+        align-items: center;
+    }
+    .selectSort {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

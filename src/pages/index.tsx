@@ -1,7 +1,12 @@
-import styles from '@/styles/Home.module.css';
+import { SearchCard } from '@/entities/searchCard';
+import styles from '@/styles/Main.module.css';
+import { NewsSection } from '@/widgets/NewsSection';
 
 export default function Home() {
   return (
-    <div className={styles.main}>Hello World!</div>
+    <div className={styles.main}>
+      <SearchCard />
+      <NewsSection />
+    </div>
   );
 }
